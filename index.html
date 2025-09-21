@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        box-sizing: border-box;        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+
+
+        }
+        h1{
+            top: 50%;
+            left: 50%;
+
+            animation-name: load;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-delay: 0.5s;
+            
+    
+
+        }
+        @keyframes load {
+            from{
+                color: aqua;
+                transform: translate(-50%, 0%);
+
+            }
+            to{
+                color: blue;
+                transform: translate(-50%,-50%)
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>this is a heading</h1>
+</body>
+</html>
